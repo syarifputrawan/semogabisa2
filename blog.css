@@ -1,0 +1,126 @@
+nav {
+    background-color: rgb(120, 120, 112);
+    height: 10vh;
+    display: flex;
+    align-items: center;
+  }
+  
+  nav ul {
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+  }
+  
+  nav ul li {
+    margin-right: 25px;
+    font-size: 20px;
+    display: flex;
+  }
+  
+  nav ul li img {
+    width: 50px;
+    margin-left: 10px;
+  }
+  
+  .nav-left ul li a:hover {
+    background-color: aqua;
+    border-radius: 20px;
+  }
+  
+  .nav-left {
+    flex: 75%;
+  }
+  
+  .nav-right {
+    flex: 10%;
+    text-align: end;
+    margin-right: 20px;
+  }
+  
+  .nav-right a {
+    background-color: black;
+    padding: 8px 20px;
+    color: white;
+    border-radius: 5px;
+  }
+  
+  .nav-right a:hover {
+    background-color: aqua;
+    color: black;
+  }
+
+  .blog-form{
+    padding: 50px 0;
+    display: flex;
+    justify-content: center;
+  }
+
+  .blog-form .blog-container{
+    width: 500px;
+  }
+
+  .blog-form .blog-container h1{
+    text-align: center;
+    margin-bottom: 40px;
+  }
+
+  .blog-form form label{
+    font-size: 20px;
+    font-weight: 400;
+  }
+
+  .blog-form form input, textarea, select{
+    width: 100%;
+    font-size: 20px;
+    font-weight: 400;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    background: #f4f3f3;
+    border-radius: 8px;
+  }
+
+  .blog-form form textarea {
+    height: 250px;
+    resize: none;
+  }
+
+  .blog-form form .input-blog-image-group {
+    width: 100%;
+    font-size: 20px;
+    font-weight: 400;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    background: #f4f3f3;
+    border: 1px solid #c4c4c4;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+
+  .blog-form form .input-blog-image-group label p {
+    font-size: 15px;
+  }
+
+  .blog-form .input-blog-image-group label {
+    width: 100%;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .blog-form form .button-group {
+    text-align: right;
+  } 
+
+  .blog-form form button {
+    margin-top: 50px;
+    padding: 8px 20px;
+    font-size: 17px;
+    background: #ec4d37;
+    border-radius: 8px;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+  }

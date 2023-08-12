@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>blog</title>
+    <link rel="stylesheet" href="blog.css">
+</head>
+<body>
+    <nav>
+        <div class="nav-left">
+          <ul>
+            <li class="image">
+              <a href="#"><img src="logodumbways.jpg" alt="logo" /></a>
+            </li>
+            <li><a href="indexcard2.html">Home</a></li>
+            <li><a href="#">My Project</a></li>
+          </ul>
+        </div>
+        <div class="nav-right">
+            <ul>
+              <li><a href="project2.html">Contact Me</a></li>
+            </ul>
+          </div>
+        </nav>
+
+<div class="blog">
+    <div class="blog-form">
+        <div class="form-container">
+            <form onsubmit="addblog(event)"> 
+            <h1>
+                create blog post
+            </h1>
+            <div>
+                <label for="input-blog-content"> title </label>
+                <textarea id="input-blog-content"></textarea>
+            </div>
+            <div>
+                <label for="input-blog-content"> content </label>
+                <textarea id="input-blog-content"></textarea>
+            </div>
+            <div class="image">
+                <label>
+                    kirim blog
+                </label>
+                <div class="input-blog-image-group">
+                    <label for="input-blog-image">
+                    <p>kirim file</p>
+                    <img src="file.png" alt="file" />
+                    </label>
+                        <input type="file" id="input-blog-image" hidden /> 
+                </div>
+            </div>
+            <div class="button-group">
+                <button>post blog</button>
+            </div>
+            </form>
+        </div>
+        <hr class="line" />
+        <div id="content" class="blog-list">
+            <div class="blog-list-item">
+                <div class="blog-image">
+                    <img src="download (1).jpeg" alt="gambar" /> 
+                </div>
+                <div class="blog-content">
+                    <div class="btn-group">
+                        <button class="btn-edit"> edit post</button>
+                        <button class="btn-post"> delete post</button>
+                    </div>
+                    <h1>
+                        <a href="blog.html" target="_blank"> pasar koding andalan</a>
+                    </h1>
+                <div class="detail-blog-content">
+                    10 aug 2023 20:23 wib | syarif putrawan 
+                </div>
+                </div>
+             </div>
+        </div>
+    </div>
+</div>
+
+<script src="blog.js"> </script>
+    
+        
+</body>
+</html>

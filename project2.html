@@ -2,47 +2,123 @@
 <html>
 <head>
   <title>Get in Touch</title>
-  <link rel="stylesheet" href="form.css">
+  <style>
+    #form-container {
+      margin: 20px auto;
+      width: 400px;
+      background-color: #f2f2f2;
+      padding: 20px;
+    }
+    #form-container input,
+    #form-container textarea {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 10px;
+      border: 1px solid #ccc;
+    }
+    #form-container button {
+      background-color: #4CAF50;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      cursor: pointer;
+    }
+    #form-container button:hover {
+      opacity: 0.8;
+    }
+    .sendiri{
+        flex: 50%;
+        text-align: end;
+    }
+
+    .nav-left {
+  flex: 75%;
+}
+nav {
+  background-color: rgb(120, 120, 112);
+  height: 10vh;
+  display: flex;
+  align-items: center;
+}
+
+nav ul {
+  display: flex;
+  list-style-type: none;
+  align-items: center;
+}
+
+nav ul li {
+  margin-right: 25px;
+  font-size: 20px;
+  display: flex;
+}
+
+nav ul li img {
+  width: 50px;
+  margin-left: 10px;
+}
+
+.nav-left ul li a:hover {
+  background-color: aqua;
+  border-radius: 20px;
+}
+
+.nav-right {
+  flex: 10%;
+  text-align: end;
+  margin-right: 25px;
+}
+
+.nav-right a {
+  background-color: black;
+  padding: 8px 20px;
+  color: white;
+  border-radius: 5px;
+}
+
+.nav-right a:hover {
+  background-color: aqua;
+  color: black;
+}
+  </style>
 </head>
 <body>
-  <div id="header">
-    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAKkAAACpCAMAAABnC
-    +0dAAAANlBMVEX////lGyPlHib4xsjyjZHrU1n98fHnKDDqRUzoNz761NbvcHX1qaz84uP3t7
-    rwfoPtYmf0m57iYX8xAAADWElEQVR4nO2b6ZabMAxGcTH7/v4vW5qGDGBJNhbpMaff/TcnsXO
-    RvJvJMgAAAAAAAAAAAAAAAAAAAAAAAAAAkDj2wJjzDP/cbVh/tf38ZS7QFHYsvfVbsmz+/vSX
-    y1awqIlyRZTpi3pqz243mZLlFKYrjZVaQkqmK11+FkzVdK2Ci2typsZMdO9K0NQ0ZBNI0dQY+x
-    hT07ktIFFTUzuqqZq6qsmaOqrpmpr5MaanESBlU5M/xrQqn2JquseY7vOfuGnxGNNdUFM3LTym
-    vdr0uP+0LFPRyKqfoObkx1ZteoFhoTaPG5/un4DpH4uCNf2MqWmYZtlYcapbS0zFNGs51W2hko
-    wpq1olZ5qNTFBbnWl5v2nW0aaLzlQuF8dAm87pmTJBrRM0ZVpqgqbMamFI0JSeqvIETafHmEpr
-    0FhTuvFrTRey1kVlKq9rY5Fs7jXlz76/bVq4fNWUzn6IKY/US+OhJ6mQHsVDj3yeKyUv9J5KZ0
-    pvfZSiLVmpOEd1niq5ZY/SlFn2ZYJpJdfINf1GJ8o8vriW8g6MdIPSLaSzmXZ5J5hpGp7o9HSp
-    SSXK7U62qDH7LLFPlUyhRSPKbk6360km5OKAE1PGR8md+tTbN5hEmoZ/N4Ae9XUdqmVPfD6Joj
-    eZhrq7ekNPpEbVTHP2CMX83E1zqTQVmcySGfSMIvkllyVzuOvh0r9i3bDm/CFibPJLywf0uJQQ
-    vledXEf+TC6y57c9m9MXhyGabXcv5uWd1GHsxEPZw5XMfr3oOcqVOazOuNFxR8jPHUdgjd3+h4
-    8ZkIMayDGkd5meOmlAUP2cJrUbajTEuCd0/1DOHV9foyFnH6lLh3Hel9zgSQ7Qgzb/TpruECWH
-    PWX+3Zn3BlFm48HPkQEQ865elF13SLdXPka3uu+JZmW8KrWV+Z6oQpXcc31RNFqV3hzqRGfPK74
-    xqhWzi1WJBizJL48ADbd6VnhWRAd16a9NAXyW4kV9md8YLkys0sPHejZBAf3LGLryZd691ZhW1
-    /YN8r5mo5P/YyDGs+kDE79z7T1xrTyeEaaV8Nq5SN7xgZ0Dnv2aZj1daJ4u40SMr00XlqJ9tIjb
-    gh9mu2jP3F/ki11rez12UUw2v9yQAAAAAAAAAAAAAAAAAAAAAPhv+Q0AbTAnEVPDDwAAA
-    ABJRU5ErkJggg==" alt="Logo">
-    <div class="links">
-      <a href="#">Home</a>
-      <a href="#">My Project</a>
+  <nav>
+    <div class="nav-left">
+      <ul>
+        <li class="image">
+          <a href="#"><img src="logodumbways.jpg" alt="logo" /></a>
+        </li>
+        <li><a href="indexcard2.html">Home</a></li>
+        <li><a href="#">My Project</a></li>
+      </ul>
     </div>
-    <div class="sendiri">
-      <a href="indexcard2.html">contact me</a>
+
+    <div class="nav-right">
+      <ul>
+        <li><a href="#">Contact Me</a></li>
+      </ul>
     </div>
-  </div>
+  </nav>
   <div id="form-container">
     <h2>Get in Touch</h2>
     <form action="submit-form.php" method="post">
       <input type="text" name="name" placeholder="Name" required>
       <input type="email" name="email" placeholder="Email" required>
-      <input type="tel" name="phone" placeholder="Phone Number" required>
-      <input type="text" name="subject" placeholder="Subject" required>
+      <input type="tel" name="phoneNumber" ...>
+      <div>
+        <label for="subject">Your School :</label>
+          <select name="subject" id="subject"> 
+            <option value="" hidden>Select</option>
+            <option value="koding">Koding</option>
+            <option value="makan">Makan</option>
+            <option value="tidur">Tidur</option>
+          </select>
+      </div>
       <textarea name="message" placeholder="Your Message" rows="8" required></textarea>
-      <button type="">Submit</button>
+      <button type="button" onclick="sendData()">Submit</button>
     </form>
   </div>
+  <script src="contack.js"></script>
 </body>
 </html>
